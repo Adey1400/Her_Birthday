@@ -85,28 +85,14 @@ const Room = () => {
         <CandleBlow />
       </div>
 
-      {/* ✨ Candle instruction */}
-      <motion.div
-        className="absolute top-[270px] text-[#f8e5b8] text-lg font-semibold"
-        animate={{ opacity: [0.3, 1, 0.3], y: [0, -3, 0] }}
-        transition={{ repeat: Infinity, duration: 2 }}
-      >
-        💨 Blow the candle!
-      </motion.div>
-
+      
       {/* 🎵 Gramophone (right) */}
       <div className="absolute bottom-20 flex justify-end w-full pr-24">
        <Gramophone musicUrl="/music/SochNaSake.mp3" />
       </div>
 
-      {/* 🎵 Gramophone text */}
-      <motion.div
-        className="absolute top-[250px] right-[200px] text-[#f8e5b8] text-lg font-semibold"
-        animate={{ opacity: [0.3, 1, 0.3], y: [0, -3, 0] }}
-        transition={{ repeat: Infinity, duration: 2.4 }}
-      >
-        🎶 Click the gramophone to play music
-      </motion.div>
+     
+     
 
       {/* 🎁 Gift Chair (left) */}
       <div className="absolute bottom-32 flex justify-start w-full pl-24">

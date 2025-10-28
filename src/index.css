@@ -4,3 +4,22 @@
 .pixel-font {
   font-family: "Press Start 2P", cursive;
 }
+
+
+
+
+/* 🕯️ Candle flame flicker animation */
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.05);
+  }
+}
+
+.flame {
+  animation: flicker 0.25s infinite alternate;
+}

@@ -96,7 +96,7 @@ const Room = () => {
 
       {/* 🎵 Gramophone (right) */}
       <div className="absolute bottom-20 flex justify-end w-full pr-24">
-        <Gramophone musicUrl="src/assets/music/SochNaSake.mp3" />
+       <Gramophone musicUrl="/music/SochNaSake.mp3" />
       </div>
 
       {/* 🎵 Gramophone text */}

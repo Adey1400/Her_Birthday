@@ -100,16 +100,17 @@ const CandleBlow = () => {
 
       {/* 🎉 Message After Blow */}
       {isBlown && (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6 }}
-          className="absolute -bottom-32 text-2xl md:text-3xl font-semibold text-[#f5e8c7] text-center"
-        >
-          <p className="text-[#f8c63c] drop-shadow-[0_0_8px_#f8c63c]">
-            🎉 Candle is out!
-          </p>
-        </motion.div>
+<motion.div
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.6 }}
+  className="absolute -top-42 text-2xl md:text-3xl font-semibold text-[#f5e8c7] text-center w-full flex justify-center"
+>
+  <p className="text-[#f8c63c] drop-shadow-[0_0_8px_#f8c63c] whitespace-nowrap inline-block">
+    🎉 Happy Birthday Dumbo 🎉
+  </p>
+</motion.div>
+
       )}
     </div>
   );

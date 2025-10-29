@@ -62,7 +62,7 @@ const Gramophone = ({ musicUrl }) => {
             duration: 3,
             ease: "easeInOut",
           }}
-          className="w-32 h-32 bg-linear-to-br from-[#b48a45] to-[#614c29] rounded-full border-[3px] border-[#2a1a12] shadow-[inset_0_4px_8px_rgba(255,255,255,0.2)] flex items-center justify-center relative overflow-visible"
+          className="w-28 h-28 bg-linear-to-br from-[#b48a45] to-[#614c29] rounded-full border-[3px] border-[#2a1a12] shadow-[inset_0_4px_8px_rgba(255,255,255,0.2)] flex items-center justify-center relative overflow-visible"
         >
           <div className="w-8 h-8 bg-[#2a1a12] rounded-full"></div>
 
@@ -110,7 +110,7 @@ const Gramophone = ({ musicUrl }) => {
         </motion.div>
 
         {/* Record player box */}
-        <div className="w-40 h-22 bg-linear-to-b from-[#523521] to-[#2e1b13] border-4 border-[#1c0f07] rounded-md flex items-center justify-center shadow-[0_4px_8px_rgba(0,0,0,0.5)] mt-1 relative">
+        <div className="w-38 h-22 bg-linear-to-b from-[#523521] to-[#2e1b13] border-4 border-[#1c0f07] rounded-md flex items-center justify-center shadow-[0_4px_8px_rgba(0,0,0,0.5)] mt-1 relative">
           {/* Spinning record (larger and more visible) */}
           <motion.div
             animate={isPlaying ? { rotate: 360 } : { rotate: 0 }}
